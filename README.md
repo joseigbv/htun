@@ -40,4 +40,5 @@ $ client -u http://compromised-hostname/server.jsp -b 127.00.1:2222 -f 0.0.0.0:2
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
