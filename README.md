@@ -18,11 +18,17 @@ Download a copy of the project from github:
 git clone https://github.com/joseigbv/htun
 ```
 
+Edit 'config.h' and compile: 
+
+```
+$ make all
+```
+
 ### Usage 
 
 * 1. Edit, configure and upload the web tool (server.jsp or server.asp) to compromised server.
-* 2. Compile and upload the binary server (use your preferred webshell).
-* 3. Compile and execute the client in your pentest box: 
+* 2. Upload the binary server (use your preferred webshell).
+* 3. Execute the client in your pentest box: 
 
 ```
 $ client -u http://compromised-hostname/server.jsp -b 127.00.1:2222 -f 0.0.0.0:22 
